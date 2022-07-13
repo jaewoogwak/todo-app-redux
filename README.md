@@ -1,4 +1,5 @@
 # Todo List app with react-redux & RTK
 
-`git clone` and `cd todo-app-redux`
-`npm start` or `yarn start`
+1. `git clone`
+2. `cd todo-app-redux`
+3. `npm start` or `yarn start`
