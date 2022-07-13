@@ -1,17 +1,11 @@
 import Todo from "./Todo";
 // text
-export default function List({ todos, deleteTodo }) {
+export default function List({ todos }) {
   return (
     <div>
-      <h2>Todo List</h2>
       <div>
         {todos.map((todo) => (
-          <Todo
-            key={todo.id}
-            id={todo.id}
-            text={todo.text}
-            deleteTodo={deleteTodo}
-          />
+          <Todo key={todo.id} id={todo.id} text={todo.text} />
         ))}
       </div>
     </div>
