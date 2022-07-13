@@ -1,5 +1,5 @@
 import Todo from "./Todo";
-
+// text
 export default function List({ todos, deleteTodo }) {
   return (
     <div>
